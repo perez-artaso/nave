@@ -1,0 +1,11 @@
+.container {
+    height: 100vh;
+    width: 100vw;
+}
+
+.board-container {
+    margin: 1rem auto;
+    width: 16vw;
+    height: 32vw;
+    border: lightblue 1px solid;
+}

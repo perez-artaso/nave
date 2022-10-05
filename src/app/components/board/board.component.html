@@ -1,0 +1,6 @@
+<div class="board">
+    <div *ngFor="let square of squares" class="some_square">
+        <app-square [square]="square"></app-square>
+    </div>  
+    <app-piece class="some_piece" [piece]="somePiece"></app-piece>
+</div>
