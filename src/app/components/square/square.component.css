@@ -3,4 +3,5 @@
     height: 100%;
     border: 1px lightblue ridge;
     box-sizing: border-box;
+    z-index: 1;
 }

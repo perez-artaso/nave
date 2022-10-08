@@ -14,4 +14,5 @@ export class SquareComponent implements OnInit {
 
   ngOnInit(): void {
   }
+
 }

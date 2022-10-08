@@ -1,4 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { BoardArea } from 'src/app/models/board-area';
 import { Piece } from 'src/app/models/piece';
 import { Square } from 'src/app/models/square';
 
@@ -11,8 +12,6 @@ export class BoardComponent implements OnInit {
 
   squares: Square[] = [];
   @Input() pieces: Piece[] = [];
-
-  somePiece: Piece = new Piece (new Square(2, 2), new Square(3, 2), 0);
 
   constructor() { }
 

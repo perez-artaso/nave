@@ -1,6 +1,1 @@
-- Determinar los z-index para que se superpongan piezas y casilleros. Por ahora las piezas empujan a los casilleros.
-    * Todos los casilleros tienen que tener su fila y columna explicitados en CSS
-    * Hacer directiva que reciba dos parámetros y asigne la propiedad de css en base a eso.
-    * Definir una clase "BoardArea" que indica fila inicial, fila final, columna inicial y columna final. Eso va a recibir la directiva.
-
-- Nombrar correctamente las líneas de la grilla para que reflejen el orden de los casilleros. (se pueden usar los índices negativos en realdiad.. probar).
+- Métodos: turn_east y turn_west

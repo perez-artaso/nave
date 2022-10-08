@@ -1,1 +1,19 @@
-<div class="piece"></div>
+<div 
+*ngIf="this.piece"
+ class="piece"
+ [ngClass]="{'black': this.piece.color == 0, 'red': this.piece.color == 1}"
+ (click)="this.piece.advance()">
+
+    <div 
+    [ngClass]="
+    {
+        'black': this.piece.color == 1, 
+        'red': this.piece.color == 0,
+        'facing_north': this.piece.is_facing_north(),
+        'facing_south': this.piece.is_facing_south(),
+        'facing_east': this.piece.is_facing_east(),
+        'facing_west': this.piece.is_facing_west()
+    }" 
+    class="head_indicator facing_north"></div>
+
+</div>

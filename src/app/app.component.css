@@ -4,8 +4,8 @@
 }
 
 .board-container {
-    margin: 1rem auto;
-    width: 16vw;
-    height: 32vw;
+    margin: auto;
+    width: 45vh;
+    height: 90vh;
     border: lightblue 1px solid;
 }
